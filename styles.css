@@ -118,11 +118,36 @@ body {
     margin-bottom: 0.5em;
 }
 
+#infoMid p{
+    display: flex;
+    align-items: center;
+}
+
+#infoMid strong {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+#bioBot {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#bioBot b {
+    font-weight: 600;
+}
+
 hr {
     height: 1px;
     background: grey;
     border: none;
-    width: 80%;
+    width: 100%;
+    margin: 35px 0 0 0;
+}
+
+#posts{
+    width: 100%;
 }
 
 #bar {

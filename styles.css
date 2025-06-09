@@ -152,9 +152,11 @@ hr {
 
 #bar {
     display: flex;
-    justify-content: space-around;
-    margin: auto;
+    justify-content: center;
+    gap: 60px;
+    margin: 5px auto;
     width: 75%;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 .option img {
